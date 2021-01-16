@@ -1,0 +1,19 @@
+{
+	products: [
+		{
+			'prod':'Uva',
+			'price': 1.2,
+			'quant': 2
+		},
+		{
+			'prod':'Pera',
+			'price': 0.2,
+			'quant': 5
+		},
+		{
+			'prod':'Maracuja',
+			'price': 3.2,
+			'quant': 2
+		}
+	],
+}
