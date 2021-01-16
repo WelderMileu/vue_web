@@ -51,16 +51,6 @@ const tableInfo = Vue.extend({
 		'	</table>'
 });
 
-// Menu de navegação.
-const nav = Vue.extend({
-	template: '<nav class="navbar navbar-expand-lg navbar-dark bg-light shadow d-flex flex-row justify-content-between p-3 px-5">'+
-	'				<img class="navbar-brend text-light" src="https://br.vuejs.org/images/logo.png" width="30"/>'+
-	'				<button class="btn btn-success px-4" type="button">'+
-	'					<span>Info</span>'+
-	'				</button>'+
-	'          </nav>' 
-});
-
 // Component de botão.
 const button = Vue.extend({
 	props: {
@@ -70,7 +60,6 @@ const button = Vue.extend({
 	template: '<button class="btn btn-success" type="button">{{ text }}</button>'
 })
 
-Vue.component('navigation', nav);
 Vue.component('table-info', tableInfo);
 Vue.component('btn', button);
 
